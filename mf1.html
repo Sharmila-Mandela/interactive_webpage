@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>mywebpage</title>
+        <link  rel="stylesheet" href="web.css">
+    </head>
+    <body  >
+       
+       <div id="web1">
+        <header >
+            
+            <center><h1>
+            MY WEBPAGE</h1></center></header>
+           <nav  >
+                <ol >
+                  
+                  <li class="l1"><a href=#>Home</a></li>
+                  <li class="l1"><a href=#>library</a></li>
+                  <li class="l1"><a  href=#>events</a></li>
+                  <li class="l1"><a  href=#>contact</a></li>
+                </ol>
+            </nav><br>
+            
+            <div class="container" >
+          
+               <img src="girl.png"  class= "img" ><br>
+               <br>
+               <br>
+                  
+                 </div>
+            <main>
+                <section>
+            
+                    <h1 class="hd">ABOUT ME</h1>
+
+                    <p> Hello! this is [your name]</p>.
+                    <p >I  am a [occupation]</p>
+             
+                <section>
+                    <h1 class="hd">LIBRARY</h1>
+                    <p> Here you can find  the details of my education and skills .
+                        For more information click on library .<br><br>
+                     </p>
+             
+                <section>
+                    <h1 class="hd">TECHNICAL SKILLS</h1>
+                    <p>Here you can find the skills like hackthons,coding tests,internships etc,done by me.
+                        Click on the events to learn more.
+                    </p>
+                  
+                </section>
+            
+                    <h1 class="hd">CONTACT</h1>
+                    <p>
+                        for more details contact</p>
+                        <p >Email:[your email]</p>
+                        <p">Phone : [your phone no.]</p>
+                    <form   id="myform" >
+                   <p class="p1">
+                        
+                      GENERATE A WEBSITE TEMPLATE BY FILLING THE FORM BELOW.</p>
+                    <label for="i1"> NAME:</label>
+                    <input type="text" id="i1" autocomplete="off"><br><br>
+                    <span class="error" id="usernameError"></span><br>
+                   
+                    
+                <label  for="i2">OCCUPATION:</label>
+                <input type="text" id="i2" autocomplete="off"><br><br>
+                <label>COURSE:</label>
+                <select id="i3">
+                    <option >select</option>    
+            <option >CSE</option>
+            <option >IT</option>
+            <option >ECE</option>
+        </select>
+        <br><br>
+           
+<label> TECHNICAL SKILLS:</label>
+                <select id="i4">
+                        <option >select domain</option>    
+                <option >c language</option>
+                <option >java</option>
+                <option >AI & ML</option>
+                <option >python</option>
+                <option>html,css,javascript </option>
+            </select>
+            <br>
+            <br>
+            <label  for="i5">EMAIL:</label><input type="email" id="i5"  name="email"  autocomplete="off" ><br>
+            <span class="error" id="emailError"></span><br>
+            
+            <label  for="i6">PHONE:</label><input type="text" id="i6"  name="i6" autocomplete="off" ><br><br>
+            
+            <label  for="i7">WEBSITE TITLE:</label><input type="text" id="i7" name="i7" autocomplete="off" ><br><br><br>
+           
+            <button  id="i8" type="button"  onclick="generate()">generate</button>
+           
+            
+            <button  id="i10" type="button" onclick="display()">display</button><br><br>
+        </form>
+            
+            <span id="i9" type="text" style="color:rgb(71, 235, 21)">     </span>
+            
+            <br><br>
+           
+            <br>
+            <br>
+        </div>
+           
+            
+            <div id="output">
+                
+                <center><h3  style="color:azure">website template</h3></center>
+                <header >
+                  
+                <center><h1 id="i7field">
+                MY WEBPAGE</h1></center></header>
+               <nav  >
+                    <ol >
+                      
+                      <li class="l1"><a href=#>Home</a></li>
+                      <li class="l1"><a href=#>library</a></li>
+                      <li class="l1"><a  href=#>events</a></li>
+                      <li class="l1"><a  href=#>contact</a></li>
+                    </ol>
+                </nav><br>
+                
+                <div class="container" >
+              
+                   <img src="girl.png"  class= "img" ><br>
+                   <br>
+                   <br>
+                     
+                     </div>
+                <main>
+                    <section>
+                  
+                        <h1 class="hd">ABOUT ME</h1>
+    
+                         <p  id="i1field" >[your name].</p>
+                        <p>I am a <p id="i2field">[occupation].</p>
+                 
+                    <section>
+                        <h1 class="hd">COURSE</h1>
+                        <p id="i3field"> Here you can find  the details of my education and skills .
+                            For more information click on library .
+                        </p>
+                         
+                 
+                    <section>
+                        <h1 class="hd">TECHNICAL SKILLS</h1>
+                        <p id="i4field">Here you can find the skills like hackthons,coding tests,internships etc,done by me.
+                            Click on the events to learn more.
+                    </p>
+                        </aside>
+                    </section>
+                   
+                        <h1 class="hd">CONTACT</h1>
+                        <p>
+                            for more details contact <br>
+                         Email:  </p><p id="i5field">[your email]</p><br>
+                          <p> Phone :</p> <p id="i6field">[your phone no.] </p>
+                        </p> 
+                        <button onclick="print()" style="background-color: dodgerblue;color:cornsilk;font-size: medium;">print</button>
+   
+                        
+                         </div>
+                        
+            
+<br>
+<br>
+               
+                
+                <footer >&copy; 2024 my webpage.All rights reserved</footer>
+                
+                    </main>
+                   <script src="[https://trusted-site.com/script.js(https://trusted-site.com/script.js)"></script>
+                    <script src="web.js"></script>
+                </body>
+            
+</html>
+    
+   
